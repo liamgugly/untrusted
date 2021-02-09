@@ -103,3 +103,26 @@ Just reset the collision function:
 ```javascript
 this.onCollision = function(){};
 ```
+## FriendlyFire
+
+... *for the 'attackDrone
+
+        'behavior': function (me) {
+            moveToward(me, 'defenseDrone');
+        }
+    });
+    
+... *for the 'reinforcementDrone'
+
+        'behavior': function (me) {
+            me.move('left');
+        }
+    });
+
+... *for the 'defenseDrone'
+
+        'behavior': function (me) {
+             me.move('left');
+             
+        }
+    });
